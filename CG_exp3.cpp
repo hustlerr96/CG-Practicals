@@ -207,7 +207,7 @@ class dline: public pt
 };
 int main()
 {
-	int gd=DETECT,gm=NULL;
+	int gd=DETECT,gm=VGAMAX;
 	int x1,x2,y1,y2,x3,y3,xmax,ymax,xmid,ymid;
 	float xc,yc,r,r1,yd;
 	pt p1;
